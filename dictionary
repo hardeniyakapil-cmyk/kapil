@@ -1,0 +1,39 @@
+#definition and property of dictionary
+#1.it is a data structure in python used to store multiple data in 
+#key:value format.
+#@.ordered,mutable.
+
+#3.indexed by key,not podition.
+#4.key must be unique(immutable)
+#value can be any type of data.
+#used in fast lookup
+
+
+#------------creation of dictionary.
+#stu_profile={"aman","noida","rohan":"delhi"}
+#print(type(stu_profile))
+#print(stu_profile)
+
+#stu_profile={"ronaldo","noida","kapil":"morena"}
+#print(type(stu_profile))
+#print(stu_profile)
+
+#stu_profile={"ronaldo","noida","kapil","morena"}
+#stu_profile['ronaldo']="madeira"
+#rint(stu_profile)
+#inbuilt methods
+#stu_marks={'aman':300,'shivam':80,'rohan':40,'abhi':44}
+#v=stu_marks.values()
+#k=stu_marks.keys()
+#i=stu_marks.items()
+#res=stu_marks.get('dev,"n/a"')
+#print(v)
+#print(k)
+#print(i)
+#print(res)
+#update
+profile={
+    'address':["noida","delhi","mumbai"]
+    'hobbies':["reading",] 1
+}
+
