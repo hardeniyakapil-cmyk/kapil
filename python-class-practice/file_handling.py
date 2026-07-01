@@ -1,10 +1,10 @@
 #--------file handling
 #1.file handling in python means reading from and writing to files/folder stord on #disk using python.
-#2your python code can open a file,oull any data out of it,put data into it and also closes it properly.
+#2your python code can open a fil,out any data out of it,put data into it and also closes it properly.
 
 
 #---------what is file
-#files are store a data ansd information on the specific parts of device
+#files are store a data and information on the specific parts of device
 
 #types of file path
 #1. absolute path: the complete path from the root of the filesystem.
@@ -53,6 +53,47 @@
    #  r=file.read(4)
     # print("file created and written.....")
      #print(f"file content:{r}")
-with open ("demo.txt","r") as f:
-    r=f.read()
-    print(r)
+#with open ("demo.txt","r") as f:
+ #   r=f.read()
+  #  print(r)
+#emp_list=["aman","shivam","shubham","anshu","kamal"]
+#emp name individual file create txt type.
+#for i in emp_list:
+ #   with open(i+"txt","w") as file:
+  #      print("file created")
+
+#import os
+#with open("kapil+.txt","w") as file:
+ #   file.write
+ #  print("file created")
+
+
+#open a file
+#file=open("example.txt","w+")
+#print("file created...")
+
+#file=open("example.txt","w")
+#print("file created...")
+
+#file=open("example.txt","r+")
+# file.write()
+#content=file.read()
+#print(content)
+#file.close()
+
+
+#file=open("example2.txt","w+") #write a file
+#file.write("namaste kapil you are so hot")
+#file.close()
+
+#file=open("example2.txt","r") #write a file
+#file.readline("yooo dawg python class is best")
+#file.close()
+
+#file=open("example2.txt","r") #reads entire data
+#print(file.readlines())
+#file.close()
+print("program started")
+file=open("example2.txt","r") #reads only one line
+print(file.readline())
+file.close()

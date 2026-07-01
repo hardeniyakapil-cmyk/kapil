@@ -16,3 +16,6 @@ if submitted:
 
     for i in range(1,11):
         st.write(f"2x{i}={2*i}")
+
+
+        
