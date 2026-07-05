@@ -93,7 +93,7 @@
 #file=open("example2.txt","r") #reads entire data
 #print(file.readlines())
 #file.close()
-print("program started")
-file=open("example2.txt","r") #reads only one line
-print(file.readline())
-file.close()
+#print("program started")
+#file=open("example2.txt","r") #reads only one line
+#print(file.readline())
+#file.close()
