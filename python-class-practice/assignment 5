@@ -1,0 +1,386 @@
+#string aasignment
+#1. Filter vowels and consonants from the string "How are you sir".
+# str=input("enter your string")
+
+# vowels="" 
+# consonants=""
+
+# for i in str:
+#     if i.isalpha():
+#         if i.lower() in "aeiou": 
+#             vowels+=i
+#         else:
+#             consonants+=i
+# print("vowels",vowels)
+# print("consonants",consonants)
+
+#2Count vowels and consonants in the string "How are you sir".
+# str=input("enter your string")
+
+# vowels=0 
+# consonants=0
+
+# for i in str:
+#     if i.isalpha():
+#         if i.lower() in "aeiou": 
+#             vowels+=1
+#         else:
+#             consonants+=1
+# print("vowels",vowels)
+# print("consonants",consonants)
+        
+# #3.Reverse the string "How are you sir".
+# str=input("enter your string")
+
+# rev=""
+
+# for i in str:
+#     rev=i+rev
+# print(rev)
+
+#4.Convert lowercase letters to uppercase in the string "How are you sir".
+# s="how are you"
+
+# print (s.upper())
+
+
+ #5.Remove duplicate letters from the string "this is python programming
+#place".
+# s= "how are you sir"
+# result=""
+# for i in s:
+#     if i not in result:
+#         result+=i
+# print(result)
+
+#6. Search for a specific character in the string "this is python
+#programming place".
+# s= "this is python"
+# i="p"
+# for i in s:
+#     if i in s:
+#         print ("character found")
+#     else:
+#         print("character not found")
+
+#7. Find the greatest and smallest characters from the string "venugopaliyer"
+# s="venugopaliyer"
+
+# print ("smallest characteer",min(s))
+# print ("greatest character",max(s))
+
+#8 s="this is python programming"
+# letter="g" 
+
+# print("repeat",s.count(letter))
+
+#9. Replace "python" with "javascript" in the string "python developer
+#python engineer python holder"
+# s="python developer python engineer python holder"
+# new_s=s.replace("python","javascript")
+# print(new_s)
+
+# #10.Print alternate letters from the string "How are you sir".
+# s="how are you sir"
+
+# print(s[::2])
+
+# #11. Convert the string "qwertyuiopasdfghjklzxcvbnm" to
+# #"abcdefghijklmnopqrstuvwxyz"
+# n="qwertyuiopasdfghjklzxcvbnm"
+# result="".join(sorted(n))
+# print(result)
+
+#12.Check if the string is a palindrome (e.g., "madam" → Palindrome, "hello"
+#→ Not palindrome).
+# aah=input("enter your string:")
+
+# if (aah==aah[::-1]):
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+
+#13.Count spaces, digits, alphabets, and special characters in "Python 3.9
+#is awesome!!".
+# txt="Python 3.9 is awesome!!"
+# spaces=0
+# digits=0
+# alphabet=0
+# special=0
+
+# for i in txt:
+#     if i==" ":
+#          spaces+=1
+#     elif i.isalpha():
+#         alphabet+=1
+#     elif i.isdigit():
+#         digits+=1
+#     else:
+#         special+=1
+# print(spaces)
+# print(alphabet)
+# print(digits)
+# print(special)
+
+#14.Find the longest word in the string "Python programming is
+#interesting".
+# txt="python programming is interesting"
+# words=txt.split()
+# longest=words[0]
+
+# for i in words:
+#     if len(i)>len(longest):
+#         longest=i
+# print("longest word=",longest)
+
+#15.Capitalize the first letter of each word in "welcome to python world".
+
+# s= "this is python world"
+
+# result=s.title()
+# print(result)
+
+#16.Remove all spaces from "How are you sir".
+# s="how are you sir"
+# result=s.replace(" ","")
+# print(result)
+
+#17.Check if all characters in the string are unique (e.g., "abcde" → True,
+#"hello" → False)
+# text = input("Enter a string: ")
+
+# if len(text) == len(set(text)):
+#     print(True)
+# else:
+#     print(False)
+
+#18.Sort characters alphabetically in "programming" → "aggimmnoprr".
+# txt="programming"
+# sorted_txt="".join(sorted(txt))
+# print(sorted_txt)
+
+#19.Swap cases of all letters in "Python Is Fun" → "pYTHON iS fUN".
+# txt="Python is fun"
+# swapped=txt.swapcase()
+# print(swapped)
+
+#20.Find frequency of each character in "banana" → { 'b':1, 'a':3,
+#'n':2 }
+# txt="banana"
+# frequency={}
+# for i in txt:
+#     if i in frequency:
+#         frequency[i]+=1
+#     else:
+#         frequency[i] = 1
+# print(frequency)
+
+#21.Remove vowels from "How are you sir" → "Hw r y sr".
+# txt="how are you sir"
+# result=""
+
+# for i in txt:
+#     if i.lower() not in "aeiou":
+#         result+=i
+# print(result)
+
+#22.Check if a substring exists in "Python programming" (e.g., "thon" →
+# Found.
+# s="Python programming"
+# p="thon"
+# if p in s:
+#     print("found")
+# else:
+#     print("not found")
+
+# 23.Print words in reverse order in "How are you sir" → "sir you are
+# How".
+# txt="how are you sir"
+# words=txt.split()
+# result=" ".join(words[::-1])
+# print(result)
+
+# 24.Count words in the string "This is a python assignment".
+# txt = "This is a python assignment"
+
+# words = txt.split()
+# count = len(words)
+
+# print("Total words:", count)
+
+# 25.Find the ASCII value of each character in "ABcd".
+# txt = "ABcd"
+
+# for i in txt:
+#     print(i, "=", ord(i))
+
+# 26.Convert a string into a list of words using "split()" (e.g., "Python is
+# fun" → ["Python", "is", "fun"]).
+# txt="python is fun"
+# words=txt.split()
+# print(words)
+
+# Join a list of words into a string using "join()" (e.g., ["Python", "is",
+# "fun"] → "Python is fun")
+
+
+# words = ["Python", "is", "fun"]
+
+# result = " ".join(words)
+
+# print(result)
+# 27.Join a list of words into a string using "join()" (e.g., ["Python", "is",
+# "fun"] → "Python is fun").
+#28.Find the first non-repeating character in "swiss" → "w".
+# text = "swiss"
+
+# freq = {}
+
+# for ch in text:
+#     if ch in freq:
+#         freq[ch] += 1
+#     else:
+#         freq[ch] = 1
+
+# for ch in text:
+#     if freq[ch] == 1:
+#         print("first non repeating character:",ch)
+#         break
+
+# #29.Check if two strings are anagrams (e.g., "listen" and "silent" →
+# # Anagrams).
+# str1 = "listen"
+# str2 = "silent"
+
+# if sorted(str1) == sorted(str2):
+#     print("Anagrams")
+# else:
+#     print("Not Anagrams")
+
+# #30.30.Replace all spaces with hyphens (-) in "Python is easy to learn" →
+# # "Python-is-easy-to-learn"
+# txt="python is easy to learn"
+# result=txt.replace(" ","-")
+# print(result)
+
+#31.31.Extract a substring from "Python Programming" → from index 0 to 6 should
+# give "Python".
+# txt="python programming"
+# substring = txt[0:6]
+# print=(substring)
+
+#32.Check if one string is a substring of another (e.g., "gram" is a substring of
+#"Programming")
+# main_string="programming"
+# sub_string="gram"
+
+# if sub_string in main_string:
+#     print("true")
+# else:
+#     print("false")
+
+# 33.Find all occurrences of a substring in "This is Python and Python is
+# fun" → Substring "Python".
+
+# string = "This is Python and Python is fun"
+# substring = "Python"
+
+# start = 0
+
+# while True:
+#     index = string.find(substring, start)
+
+#     if index == -1:
+#         break
+
+#     print(index)
+#     start = index + 1
+
+
+# 34.Replace a substring in "I like Python" → Replace "Python" with
+# "Java".
+# txt="i like python"
+# result=txt.replace("python","java")
+# print(result)
+
+# 35.Remove a substring from "HelloWorld" → Remove "World" → "Hello".
+# txt="helloworld"
+# result=txt.replace("world","")
+# print(result)
+
+#36.Count occurrences of a substring in "banana" → Substring "ana" appears 2
+# times.
+# txt="banana"
+# result=txt.count("ana")
+# print(result)
+
+#37.Check if a string starts with a substring (e.g., "Python is easy" starts with
+# "Python").
+# txt="python is easy"
+# sub_string="python"
+
+# if sub_string in txt[:6]:
+#     print("found")
+# else:
+#     print("not found")
+
+# 38.Check if a string ends with a substring (e.g., "Learn coding" ends with
+# "coding").
+# txt="learn coding"
+# if txt.endswith("coding"):
+#     print("yes")
+# else:
+#     print("no")
+
+#39.Split a string based on a substring (e.g., "apple,banana,grapes" → Split
+#by "," → ["apple", "banana", "grapes"]).
+# txt="apple,banana,grapes"
+# result=txt.split(",")
+# print(result)
+
+#40.Find the index of the first occurrence of a substring in "Programming is
+# great" → Substring "is" → Index 12
+# txt="programming is great"
+# result=txt.find("is")
+# print(result)
+
+#41.Find the index of the last occurrence of a substring in "Programming in
+# Python Programming" → Substring "Programming".
+# txt=" Python Programming"
+# result=txt.find("programming")
+# print(result)
+
+#42.Extract substring after a specific word (e.g., "Welcome to Python
+# World" → substring after "to" → "Python World").
+# txt="welcome to python world"
+# print(txt[11:23])
+
+#43.Extract substring before a specific word (e.g., "Welcome to Python
+# World" → substring before "Python" → "Welcome to")
+# txt="welcome to python world"
+# print(txt[0:10])
+
+# 44.Check if two strings are rotations (cyclic substrings) of each other (e.g.,
+# "abcd" and "cdab" → Rotations).
+# str1 = "abcd" 
+# str2 = "cdab" 
+# if len(str1) == len(str2) and str2 in (str1 + str1): print("Rotation") 
+# else: print("Not Rotation"
+
+#45.45.Find the longest common substring between two strings (e.g., "abcdxyz"
+#and "xyzabcd" → Longest common substring = "abcd")
+# str1 = "abcdxyz"
+# str2 = "xyzabcd"
+
+# longest = ""
+
+# for i in range(len(str1)):
+#     for j in range(i + 1, len(str1) + 1):
+
+#         sub = str1[i:j]
+
+#         if sub in str2 and len(sub) > len(longest):
+#             longest = sub
+
+# print(longest)
+
