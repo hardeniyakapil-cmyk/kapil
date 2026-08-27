@@ -1,0 +1,11 @@
+{
+    "database":"stu_manage_system",
+    "table":"all_students",
+    "columns":{
+        "id":"INT PRIMARY KEY AUTO_INCREMENT",
+        "stu_name":"VARCHAR(100)",
+        "stu_age":"INT",
+        "stu_reg_no":"VARCHAR(10)",
+        "stu_email" : "VARCHAR(30)"
+    }
+}

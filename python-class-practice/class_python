@@ -1,0 +1,25 @@
+
+#tuple is a ds used in python used to store dsta of different types separated by commas place in round brackets
+#immutable
+#support indexing,slicing and ordering
+
+#-------creation of tuple
+#waf to extract all number greater than 55 ,marks_tuple=(50,55,69,34,89)
+def tuple_fun(m):
+    new_value=[]
+    for i in m:
+        if i>=55:
+            new_value.append(i)
+    return new_value
+marks_tuple=(50,55,69,34,89)
+res=tuple_fun(marks_tuple)
+print(res)
+#   #waf to sum of indices of tuple,
+#   # marks_tuple=(50,55,69,34,89)
+# marks_tuple=(50,55,69,34,89)
+# s=0
+# for in range(len(marks_tuple)):
+#     s+=i
+# print(s)   
+
+print(hsjs)
